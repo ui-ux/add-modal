@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\admin\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\admin\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_11_1_gulp.255701775.00" t="ExcludeRecursive" />
+    <e p="C:\Users\admin\Desktop\FIAT_500_L\11_1_gulp" t="IncludeFlat">
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="@types" t="IncludeRecursive" />
+        <e p="gulp" t="IncludeRecursive" />
+        <e p="gulp-autoprefixer" t="IncludeRecursive" />
+        <e p="gulp-concat-css" t="IncludeRecursive" />
+        <e p="gulp-imagemin" t="IncludeRecursive" />
+        <e p="gulp-minify-css" t="IncludeRecursive" />
+        <e p="gulp-rename" t="IncludeRecursive" />
+        <e p="gulp-sass" t="IncludeRecursive" />
+        <e p="gulp-uncss" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

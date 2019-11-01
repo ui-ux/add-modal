@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://uk.allfont.net/allfont.css?fonts=montserrat-hairline" rel="stylesheet" type="text/css" />
+    <link href="http://uk.allfont.net/allfont.css?fonts=montserrat-light" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <button id="open-modal-login" class="button-start">Open Modal</button>
+        <div id="login-modal" class="modal-body">
+            <div class="modal-content">
+                <span id="close-login-modal" class="icon-close-modal"></span>
+                <div class="modal-header">
+                    <a id="link-sign-up" class="active-route">Sign Up</a>
+                    <a id="link-log-in">Log In</a>
+                </div>
+                <div id="content-sign-up">
+                    <div class="wizard">
+                        <div class="wizard-step">
+                            <div class="wizard-name-active">
+                                Account
+                            </div>
+                            <div class="wizard-tab-active">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="wizard-step">
+                            <div>
+                                Profile
+                            </div>
+                            <div class="wizard-tab">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="wizard-step">
+                            <div>
+                                Verification
+                            </div>
+                            <div class="wizard-tab">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linear-guide"></div>
+                    <div class="select-account">
+                        <div class="list-account">
+                            <div class="caption-name">
+                                Pick a account
+                            </div>
+                            <div class="list-buttons">
+                                <button class="button-toggle">
+                                    <span>Business account</span>
+                                    <span class="icon-business-account">
+                                </span>
+                                </button>
+                                <button class="button-toggle">
+                                    <span>Personal account</span>
+                                    <span class="icon-personal-account"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="fill-form">
+                            <div class="head-form">
+                                <form>
+                                    <div class="caption-name caption-invalid">
+                                        <label for="email">E-mail</label>
+                                    </div>
+                                    <div class="box-input">
+                                        <label>
+                                            <input class="input-invalid" type="email" id="email" placeholder="Enter your e-mail">
+                                        </label>
+                                        <div class="tooltip-invalid">This mail is already in use</div>
+                                    </div>
+                                    <div class="caption-name">
+                                        <label for="password">Password</label>
+                                    </div>
+                                    <div>
+                                        <label>
+                                            <input type="password" id="password" placeholder="Enter your password">
+                                        </label>
+                                    </div>
+                                    <div class="group-box">
+                                        <div>
+                                            <div class="caption-name">
+                                                <label for="country">Your Country</label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <input type="text" id="country" placeholder="Enter your Country">
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="caption-name">
+                                                <label for="currency">Currency</label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <select id="currency">
+                                                        <option value="USD">USD</option>
+                                                        <option value="UAH">UAH</option>
+                                                    </select>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="additional-comments">
+                                            <input id="accept" type="checkbox">
+                                            <label for="accept">I accept terms & condition</label>
+                                        </div>
+                                        <div class="additional-comments">
+                                            <input id="like-to-recieve" type="checkbox">
+                                            <label for="like-to-recieve">I’d like to recieve essential notifications</label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button disabled="disabled" class="button-next">Sign up <span></span></button>
+                    </div>
+                </div>
+                <div id="content-login">
+                    <div class="wizard">
+                        <div class="wizard-step">
+                            <div class="wizard-name-active">
+                                Account
+                            </div>
+                            <div class="wizard-tab-active">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="wizard-step">
+                            <div>
+                                Profile
+                            </div>
+                            <div class="wizard-tab">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="wizard-step">
+                            <div>
+                                Verification
+                            </div>
+                            <div class="wizard-tab">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linear-guide"></div>
+                    <div class="select-account">
+                        <div class="logo-login"></div>
+                        <div class="fill-form">
+                            <div class="head-form">
+                                <form>
+                                    <div class="caption-name">
+                                        <label for="login">Login</label>
+                                    </div>
+                                    <div class="box-input">
+                                        <label>
+                                            <input type="email" id="login" placeholder="Enter your nickname or e-mail">
+                                        </label>
+                                    </div>
+                                    <div class="caption-name">
+                                        <label for="password-login">Password</label>
+                                    </div>
+                                    <div class="box-input">
+                                        <label>
+                                            <input type="password" id="password-login" placeholder="Enter your password">
+                                        </label>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button disabled="disabled" class="button-next">Sign up <span></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
